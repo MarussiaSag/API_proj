@@ -1,0 +1,10 @@
+<form action="/register" method="post">
+  <input type="text" name="name" />
+  <input type="email" name="email" />
+  <input type="text" name="password" />
+  <button type="submit" name="button">зарегестрироваться</button>
+</form>
+
+{{#if message}}
+  <span> {{message}}</span>
+{{/if}}
